@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #86b152;
+  width: 50%;
+  margin: 220px auto;
+  border-radius: 5px;
+  height: 250px;
+  color: white;
+}
+
+body{
+  background-color:darkslategray;
+}
+
+.btn-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn-div button{
+  margin: 0px 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
